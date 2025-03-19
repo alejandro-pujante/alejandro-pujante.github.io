@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Índice</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+        p {
+            text-align: center;
+            font-size: 18px;
+            color: #555;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        .folder {
+            background-color: #ffffff;
+            border: 2px solid #ddd;
+            border-radius: 12px;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            transition: all 0.3s ease;
+        }
+        .folder:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+        }
+        .folder h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .folder a {
+            display: inline-block;
+            background-color: #007BFF;
+            color: white;
+            padding: 12px 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            margin: 10px 0;
+            transition: background-color 0.3s;
+        }
+        .folder a:hover {
+            background-color: #0056b3;
+        }
+        .folder-icon {
+            font-size: 50px;
+            color: #007BFF;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Gráficas comparativa datasets SRTM y CORINE LAND COVER</h1>
+    <p>DOMINIOS</p>
+    
+    <div class="container">
+        <!-- Enlace a la carpeta Sierra -->
+        <div class="folder">
+            <div class="folder-icon">📂</div>
+            <h2>Sierra</h2>
+            <a href="sierra">Ver archivos</a>
+        </div>
+        
+        <!-- Enlace a la carpeta Calasparra -->
+        <div class="folder">
+            <div class="folder-icon">📂</div>
+            <h2>Calasparra</h2>
+            <a href="calasparra">Ver archivos</a>
+        </div>
+    </div>
+
+</body>
+</html>
