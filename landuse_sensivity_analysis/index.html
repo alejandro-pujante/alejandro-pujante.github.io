@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landuse Sensitivity Analysis</title>
+    <style>
+        body {
+            background-color: #282a36;
+            color: #f8f8f2;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            color: #ff79c6;
+        }
+        a {
+            color: #50fa7b;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .directories {
+            list-style-type: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+        .directories li {
+            background-color: #44475a;
+            padding: 20px;
+            border-radius: 8px;
+            border: 2px solid #50fa7b;
+        }
+        .directories li a {
+            font-size: 1.4em;
+            display: block;
+            text-align: center;
+        }
+        .directories li a:hover {
+            background-color: #6272a4;
+        }
+        .back-link {
+            margin-top: 40px;
+            font-size: 1.2em;
+        }
+        .back-link a {
+            color: #ff79c6;
+        }
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Landuse Sensitivity Analysis</h1>
+    <div class="container">
+        <p>Selecciona uno de los siguientes directorios para ver más detalles:</p>
+        <ul class="directories">
+            <li><a href="LAI/index.html">LAI</a></li>
+            <li><a href="RGL/index.html">RGL</a></li>
+            <li><a href="RS/index.html">RS</a></li>
+            <li><a href="SHDFAC/index.html">SHDFAC</a></li>
+            <li><a href="Z0/index.html">Z0</a></li>
+        </ul>
+    </div>
+    <div class="back-link">
+        <a href="../index.html">Volver al índice principal</a>
+    </div>
+
+</body>
+</html>

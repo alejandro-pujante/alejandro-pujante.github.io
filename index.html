@@ -3,117 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alejandro Pujante Repository</title>
+    <title>Mi Página - Dracula Theme</title>
     <style>
         body {
-            font-family: 'Arial', sans-serif;
             background-color: #282a36;
             color: #f8f8f2;
-            margin: 0;
-            padding: 20px;
+            font-family: Arial, sans-serif;
             text-align: center;
         }
-
         h1 {
-            font-size: 28px;
-            margin-bottom: 15px;
+            color: #ff79c6;
         }
-
-        .container {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 30px;
-            margin-top: 15px;
-        }
-
-        .folder {
-            background-color: #44475a;
-            border-radius: 8px;
-            width: 260px;
-            padding: 15px;
-            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
-            transition: transform 0.2s;
-        }
-
-        .folder:hover {
-            transform: scale(1.03);
-        }
-
-        .folder h2 {
-            font-size: 20px;
-            margin-bottom: 8px;
-        }
-
-        .folder a {
-            display: block;
-            background-color: #6272a4;
-            color: #f8f8f2;
-            padding: 8px;
-            font-size: 14px;
+        a {
+            color: #50fa7b;
             text-decoration: none;
-            border-radius: 4px;
-            margin-top: 5px;
-            transition: background-color 0.2s;
         }
-
-        .folder a:hover {
-            background-color: #50fa7b;
-            color: #282a36;
+        a:hover {
+            text-decoration: underline;
         }
-
-        .folder-icon {
-            font-size: 35px;
-            margin-bottom: 8px;
+        .container {
+            margin-top: 50px;
         }
-
-        .file-list {
-            list-style: none;
+        .directories {
+            list-style-type: none;
             padding: 0;
+        }
+        .directories li {
+            margin: 20px 0;
+        }
+        .directories li a {
+            font-size: 1.2em;
+            padding: 10px 20px;
+            border: 2px solid #50fa7b;
+            border-radius: 5px;
+            background-color: #44475a;
+        }
+        .directories li a:hover {
+            background-color: #6272a4;
         }
     </style>
 </head>
 <body>
-    <h1>Gráficas Comparativa Datasets SRTM y CORINE LAND COVER</h1>
+
+    <h1>Tu Nombre Aquí</h1>
     <div class="container">
-        <div class="folder">
-            <div class="folder-icon">📂</div>
-            <h2>Dominio A</h2>
-            <p>Resultados</p>
-            <ul class="file-list">
-                <li><a href="sierra/GRDFLX_srtm_default.html" target="_blank">GRDFLX_srtm_default</a></li>
-                <li><a href="sierra/height_sierra.html" target="_blank">height_sierra</a></li>
-                <li><a href="sierra/HFX_srtm_default.html" target="_blank">HFX_srtm_default</a></li>
-                <li><a href="sierra/LH_srtm_default.html" target="_blank">LH_srtm_default</a></li>
-                <li><a href="sierra/PBLH_srtm_default.html" target="_blank">PBLH_srtm_default</a></li>
-                <li><a href="sierra/QFX_srtm_default.html" target="_blank">QFX_srtm_default</a></li>
-                <li><a href="sierra/T2_default_srtm_observation.html" target="_blank">T2_default_srtm_observation</a></li>
-                <li><a href="sierra/TSK_srtm_default.html" target="_blank">TSK_srtm_default</a></li>
-                <li><a href="sierra/UST_srtm_default.html" target="_blank">UST_srtm_default</a></li>
-                <li><a href="sierra/WINDSPEED_default_srtm_observation.html" target="_blank">WINDSPEED_default_srtm_observation</a></li>
-                <li><a href="sierra/sierra_landuse_modis.html" target="_blank">sierra_landuse_modis</a></li>
-                <li><a href="sierra/sierra_landuse_usgs.html" target="_blank">sierra_landuse_usgs</a></li>
-            </ul>
-        </div>
-        <div class="folder">
-            <div class="folder-icon">📂</div>
-            <h2>Dominio B</h2>
-            <p>Resultados</p>
-            <ul class="file-list">
-                <li><a href="calasparra/GRDFLX_srtm_default.html" target="_blank">GRDFLX_srtm_default</a></li>
-                <li><a href="calasparra/height_calasparra.html" target="_blank">height_calasparra</a></li>
-                <li><a href="calasparra/HFX_srtm_default.html" target="_blank">HFX_srtm_default</a></li>
-                <li><a href="calasparra/LH_srtm_default.html" target="_blank">LH_srtm_default</a></li>
-                <li><a href="calasparra/PBLH_srtm_default.html" target="_blank">PBLH_srtm_default</a></li>
-                <li><a href="calasparra/QFX_srtm_default.html" target="_blank">QFX_srtm_default</a></li>
-                <li><a href="calasparra/T2_default_srtm_observation.html" target="_blank">T2_default_srtm_observation</a></li>
-                <li><a href="calasparra/TSK_srtm_default.html" target="_blank">TSK_srtm_default</a></li>
-                <li><a href="calasparra/UST_srtm_default.html" target="_blank">UST_srtm_default</a></li>
-                <li><a href="calasparra/WINDSPEED_default_srtm_observation.html" target="_blank">WINDSPEED_default_srtm_observation</a></li>
-                <li><a href="calasparra/calasparra_landuse_modis.html" target="_blank">calasparra_landuse_modis</a></li>
-                <li><a href="calasparra/calasparra_landuse_usgs.html" target="_blank">calasparra_landuse_usgs</a></li>
-            </ul>
-        </div>
+        <p>Bienvenido a la página de directorios. Selecciona uno de los siguientes:</p>
+        <ul class="directories">
+            <li><a href="landuse_sensivity_analysis/index.html">Landuse Sensitivity Analysis</a></li>
+            <li><a href="wrf_default_vs_srt_clc/index.html">WRF Default vs SRT CLC</a></li>
+        </ul>
     </div>
+
 </body>
 </html>
